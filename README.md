@@ -63,3 +63,12 @@ A CNC can hurt people and wreck itself. In short (the full list is in
 ## Status
 
 This is a snapshot, not a maintained project. No support is offered.
+
+## Licence
+
+[MIT](LICENSE) for everything in this repo, provided as-is with no warranty.
+That covers the docs, scripts, G-code and tool files. Running any of it on a
+machine is at your own risk.
+
+The submodules under `vendor/` are separate upstream projects under their own
+terms. Firmware is linked, not included. The community firmware is GPL-3.0.
