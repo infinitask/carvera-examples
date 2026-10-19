@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "name": "M3 Thread Mill d2.42 x 9mm - 1/8in Shank",
+  "shape": "thread-mill.fcstd",
+  "shape-type": "ThreadMill",
+  "parameter": {
+    "Chipload": "0.013 mm",
+    "CuttingEdgeHeight": "2 mm",
+    "CuttingEdgeLength": "2 mm",
+    "Diameter": "2.42 mm",
+    "Flutes": 3,
+    "Length": "38 mm",
+    "NeckLength": "9 mm",
+    "Pitch": "0.5 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.175 mm",
+    "cuttingAngle": "60"
+  },
+  "attribute": {
+    "SpindleSpeed": "10000",
+    "HorizFeed": "100 mm/min",
+    "VertFeed": "100 mm/min",
+    "RampFeed": "100 mm/min",
+    "Stepdown": "0.5 mm",
+    "Stepover": "0.2 mm",
+    "SourceNote": "Imported 2026-08-17 from vendor/CarveraProfiles/CAM_Post_Processors/Freecad/Tools/bit/Makera_Carvera_M3_Threadmill_Plastic.fctb (Makera 'M3 Threadmill', plastic preset: 400 mm/min, 10000 RPM). HorizFeed here is the TOOL-CENTRE feed for the thread helix: on an M3 the centre orbits at r=0.29 mm, so 400 mm/min at the tooth (Makera's number) is ~77 mm/min at the centre; 100 mm/min is a touch above that. Stepover = radial depth of the first (roughing) thread pass; the second pass goes to full radius. NeckLength 9 mm = usable thread depth (M3 hole < 3.175 shank). Teeth 2 mm from the tip, pitch 0.5, so a continuous helix at 0.5 mm/turn cuts the full thread."
+  }
+}

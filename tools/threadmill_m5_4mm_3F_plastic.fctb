@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "name": "M5 Thread Mill d4.0 x 15mm - 1/8in Shank",
+  "shape": "thread-mill.fcstd",
+  "shape-type": "ThreadMill",
+  "parameter": {
+    "Chipload": "0.013 mm",
+    "CuttingEdgeHeight": "2 mm",
+    "CuttingEdgeLength": "2 mm",
+    "Diameter": "4.0 mm",
+    "Flutes": 3,
+    "Length": "38 mm",
+    "NeckLength": "15 mm",
+    "Pitch": "0.8 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.175 mm",
+    "cuttingAngle": "60"
+  },
+  "attribute": {
+    "SpindleSpeed": "10000",
+    "HorizFeed": "150 mm/min",
+    "VertFeed": "150 mm/min",
+    "RampFeed": "150 mm/min",
+    "Stepdown": "0.8 mm",
+    "Stepover": "0.35 mm",
+    "SourceNote": "Imported 2026-08-17 from vendor/CarveraProfiles/CAM_Post_Processors/Freecad/Tools/bit/Makera_Carvera_M5_Threadmill_Plastic.fctb (Makera 'M5 Threadmill', plastic preset: 400 mm/min, 10000 RPM). HorizFeed is the TOOL-CENTRE feed for the thread helix (M5: centre orbits at r=0.5 mm; 400 mm/min at the tooth = 80 mm/min at the centre; 150 chosen for epoxy). Stepover = radial depth of the first thread pass; second pass to full radius. NeckLength 15 mm = usable thread depth. Teeth 2 mm from the tip, pitch 0.8."
+  }
+}

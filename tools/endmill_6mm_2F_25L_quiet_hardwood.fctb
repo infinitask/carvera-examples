@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "6mm 2F 25mm Quiet End Mill",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.0407407 mm",
+    "CuttingEdgeHeight": "25 mm",
+    "Diameter": "6 mm",
+    "Flutes": 2,
+    "Length": "55 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "6 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {
+    "SpindleSpeed": "5400",
+    "HorizFeed": "650 mm/min",
+    "VertFeed": "220 mm/min",
+    "RampFeed": "325 mm/min",
+    "Stepover": "0.5 mm",
+    "Stepdown": "0.5 mm",
+    "RampAngle": "2 deg",
+    "SourceNote": "Imported from Fusion 360 tool library, Hardwood/Plastic preset (\"25mm Flute End Mill Quiet\")"
+  }
+}

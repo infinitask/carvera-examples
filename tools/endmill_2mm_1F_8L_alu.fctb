@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "2mm 1F 8mm End Mill (Aluminum)",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.0166667 mm",
+    "CuttingEdgeHeight": "8 mm",
+    "Diameter": "2 mm",
+    "Flutes": 1,
+    "Length": "38 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "2 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {
+    "SpindleSpeed": "12000",
+    "HorizFeed": "500 mm/min",
+    "VertFeed": "200 mm/min",
+    "RampFeed": "300 mm/min",
+    "Stepdown": "0.15 mm",
+    "SourceNote": "Imported from Fusion 360 tool library, Aluminum preset (\"BR 8mm Flute End Mill Metal\"). Stepover intentionally unset in Fusion (use_tool_stepover=false). Flute count corrected from 4 to 1 on 2026-04-23 after physical inspection — filename (4F→1F) and Flutes field updated; feeds were Fusion-computed assuming 4F, so effective per-tooth chipload at these feeds is 4× the Chipload parameter (0.0417 vs 0.0167 mm/tooth). Acceptable for brass at light engagement, retune if material pushes back."
+  }
+}

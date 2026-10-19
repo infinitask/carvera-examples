@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "2mm 2F 12mm Ball Nose Endmill - 1/8in Shank",
+  "shape": "ballend.fcstd",
+  "shape-type": "Ballend",
+  "parameter": {
+    "Chipload": "0.021 mm",
+    "CuttingEdgeHeight": "12 mm",
+    "CuttingEdgeLength": "12 mm",
+    "Diameter": "2 mm",
+    "Flutes": 2,
+    "Length": "38 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.175 mm"
+  },
+  "attribute": {
+    "SpindleSpeed": "12000",
+    "HorizFeed": "500 mm/min",
+    "VertFeed": "200 mm/min",
+    "RampFeed": "333 mm/min",
+    "Stepdown": "1 mm",
+    "Stepover": "0.12 mm",
+    "RampAngle": "1.6 deg",
+    "SourceNote": "Imported 2026-08-16 from vendor/CarveraProfiles/CAM_Post_Processors/Freecad/Tools/bit/Makera_2_Flute_Ball_Nose_2_12mm_Plastic.fctb (Makera '2 Flute Ball Nose 2*12mm', plastic preset: 500 mm/min, 12000 RPM, stepdown 1, stepover 0.2857 of diameter). Feed kept at the preset for finishing (light radial engagement). Stepover overridden to 0.12 mm = the relief-finish scallop stepover (Makera's 0.57 mm is a pocketing value). IMPORTANT geometry: 2 mm ball on a 3.175 mm shank with only 12 mm of flute - the shank is WIDER than the cutter, so any terrain that rises more than ~12 mm above the tip within the shank radius (1.59 mm) rubs the shank. cam/relief_engrave/relief_gcode.py computes that exclusion mask and hands those areas to the O-flute instead. Attribute keys translated Makera->FreeCAD PathBit."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "tools": [
+    {"nr": 1, "path": "endmill_6mm_2F_52L_hardwood.fctb"},
+    {"nr": 2, "path": "endmill_6mm_2F_25L_quiet_hardwood.fctb"},
+    {"nr": 3, "path": "endmill_6mm_2F_22L_downcut_hardwood.fctb"},
+    {"nr": 4, "path": "endmill_1mm_1F_3L_alu.fctb"},
+    {"nr": 5, "path": "endmill_2mm_1F_8L_alu.fctb"},
+    {"nr": 6, "path": "engrave_30deg_0.2tip_1F_plastic.fctb"},
+    {"nr": 7, "path": "chamfer_45deg_3.175_makera_hardwood.fctb"}
+  ]
+}

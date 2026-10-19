@@ -1,0 +1,6 @@
+[submodule "vendor/carvera-cli"]
+	path = vendor/carvera-cli
+	url = https://github.com/hagmonk/carvera-cli
+[submodule "vendor/CarveraProfiles"]
+	path = vendor/CarveraProfiles
+	url = https://github.com/MakeraInc/CarveraProfiles

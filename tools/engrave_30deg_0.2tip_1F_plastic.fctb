@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "name": "30deg 0.2mm Tip 1F V-Bit (Plastic)",
+  "shape": "v-bit.fcstd",
+  "shape-type": "VBit",
+  "parameter": {
+    "Chipload": "0.0833 mm",
+    "CuttingEdgeAngle": 30.0,
+    "CuttingEdgeHeight": "9 mm",
+    "CuttingEdgeLength": "9 mm",
+    "Diameter": "3.175 mm",
+    "Flutes": 1,
+    "Length": "38 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.175 mm",
+    "TipDiameter": "0.2 mm"
+  },
+  "attribute": {
+    "SpindleSpeed": "12000",
+    "HorizFeed": "1000 mm/min",
+    "VertFeed": "500 mm/min",
+    "RampFeed": "333 mm/min",
+    "Stepdown": "1 mm",
+    "Stepover": "0.06 mm",
+    "RampAngle": "1.2 deg",
+    "SourceNote": "Imported 2026-05-15 from Carvera Community Profiles (CAM_Post_Processors/Freecad/Tools/bit/Makera_Single_Flute_Engraving_Metal_30_deg_.2mm_Plastic.fctb). Renamed to local naming convention; Makera's attribute keys converted to FreeCAD PathBit names (spindleSpeed→SpindleSpeed, cutting_feedrate→HorizFeed, plunge_feedrate→VertFeed, ramp_feedrate→RampFeed, stepdown→Stepdown, stepover→Stepover, rampAngle→RampAngle). Values rounded for clarity: 996.853→1000 mm/min, 11962.2→12000 RPM, 333.333→333 mm/min."
+  }
+}

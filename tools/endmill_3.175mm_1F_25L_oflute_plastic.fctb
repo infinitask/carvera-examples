@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "name": "3.175mm 1F 25mm Spiral O-Flute Endmill - 1/8in Shank",
+  "shape": "endmill.fcstd",
+  "shape-type": "Endmill",
+  "parameter": {
+    "Chipload": "0.07 mm",
+    "CuttingEdgeHeight": "25 mm",
+    "CuttingEdgeLength": "25 mm",
+    "Diameter": "3.175 mm",
+    "Flutes": 1,
+    "Length": "42 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.175 mm"
+  },
+  "attribute": {
+    "SpindleSpeed": "10000",
+    "HorizFeed": "700 mm/min",
+    "VertFeed": "250 mm/min",
+    "RampFeed": "333 mm/min",
+    "Stepdown": "1 mm",
+    "Stepover": "1.2 mm",
+    "RampAngle": "1.2 deg",
+    "SourceNote": "Imported 2026-08-16 from vendor/CarveraProfiles/CAM_Post_Processors/Freecad/Tools/bit/Makera_Spiral_O_3.175_25mm_Plastic.fctb (Makera 'Spiral O 3.175*25mm', plastic preset: 1000 mm/min, 10000 RPM, stepdown 1). Feeds pulled back to ~2/3 (700 mm/min, 0.07 mm/tooth) per the Carvera Air audible-profile rule (docs/carvera-air.md) for the epoxy relief job. Single-flute up-cut O-flute: the big gullet is why it's the roughing tool for resin/epoxy - chips clear instead of re-welding. 25 mm flute = full reach for a 20 mm-deep relief with the shank never below the flute (shank = flute diameter, so no shank-rub check needed). Attribute keys translated Makera->FreeCAD PathBit (cutting_feedrate->HorizFeed, plunge_feedrate->VertFeed, ramp_feedrate->RampFeed, stepdown->Stepdown, rampAngle->RampAngle); stepover added (Makera gives none for a flat mill) at ~38% of diameter."
+  }
+}

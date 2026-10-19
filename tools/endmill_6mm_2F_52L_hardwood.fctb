@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "6mm 2F 52mm Up-Cut Router Bit",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.1000 mm",
+    "CuttingEdgeHeight": "52 mm",
+    "Diameter": "6 mm",
+    "Flutes": 2,
+    "Length": "80 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "6 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {
+    "SpindleSpeed": "5400",
+    "HorizFeed": "1080 mm/min",
+    "VertFeed": "350 mm/min",
+    "RampFeed": "850 mm/min",
+    "Stepover": "2.5 mm",
+    "Stepdown": "1.0 mm",
+    "RampAngle": "2 deg",
+    "SourceNote": "Hardwood settings, eighth revision. 0.100 mm/tooth chipload (1080 / (5400*2)) at 5400 RPM, 2.5 mm stepover (~42% tool), 1.0 mm stepdown, 850 mm/min ramp feed. Pair with CAM_STOCK padded by +tool_radius (3 mm) on the excess axis. Round 7 (8400 RPM) still chattered at high frequency — the upward RPM shift didn't clear the tool's bending mode. Round 8 goes the other way: RPM 8400→5400 (-36%) with all feeds scaled 0.6429× to preserve chiploads (horiz 0.100, vert 0.0324, ramp 0.0787). Tooth-pass frequency drops from 280 Hz to 180 Hz; if the bending mode resonance is in the 200–280 Hz band this lands below it. Cost: MRR drops 36%, cut runs ~56% longer. If this doesn't clear chatter either, the tool's natural frequency is outside the RPM range we can reach while keeping chiploads sensible — next lever is stepover 2.5→2.0 (reduce forcing amplitude, 4 passes instead of 3)."
+  }
+}

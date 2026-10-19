@@ -1,0 +1,6 @@
+python/venv/
+__pycache__/
+*.pyc
+*.FCStd
+*.FCBak
+simulated_stock.stl
